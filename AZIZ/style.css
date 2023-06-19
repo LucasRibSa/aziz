@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #032146;
+    color: #fff;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8% 10%;
+}
+.apresentacao-conteudo-fotos {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+.apresentacao-conteudo-produtos {
+    font-family: 'Krona One', sans-serif; 
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 24px; 
+    text-align: center;
+}
+.desc-produtos {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    margin-left: 190px;
+    color: #fff;
+}
+
+.img-jaleco, .img-scrub {
+    margin-left: 160px;
+    height: 50%;
+    width: 36%;
+}
+.logo-aziz {
+    height: 50%;
+    border-radius: 10%;
+    width: 42%;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+
+}
+.apresentacao-conteudo-paragrafo {
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'Inconsolata', monospace;
+}
+
+.apresentacao-links {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+.apresentacao-conteudo-subtitulo {
+    font-family: 'Krona One', sans-serif; 
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 24px; 
+    text-align: center;
+}
+.apresentacao-links-botao {
+    /* background-color: #5bf800; */
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 21.5px 0;
+    border: 3px solid #5bf800;
+    color: #f6f6f6;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.apresentacao-links-botao:hover {
+    background-color: #272727;
+    border-color: aqua;
+}
+.rodape {
+    text-align: center;
+    color: #000;
+    background-color: #5bf800;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+}
