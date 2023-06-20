@@ -35,12 +35,12 @@ body {
 .desc-produtos {
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
-    margin-left: 190px;
+    margin-left: 126px;
     color: #fff;
 }
 
 .img-jaleco, .img-scrub {
-    margin-left: 160px;
+    margin-left: 110px;
     height: 50%;
     width: 36%;
     border: 3px solid #5bf800;
@@ -52,6 +52,13 @@ body {
 }
 .logo-aziz {
     height: 50%;
+    border-radius: 10%;
+    width: 42%;
+}
+
+.logo-aziz-scrub {
+    height: 50%;
+    margin-left: 30%;
     border-radius: 10%;
     width: 42%;
 }
@@ -82,6 +89,14 @@ body {
     gap: 32px;
     justify-content: space-evenly;
 }
+
+.apresentacao-links-scrub{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    gap: 50px;
+    justify-content: center;
+}
 .apresentacao-conteudo-subtitulo {
     font-family: 'Krona One', sans-serif; 
     margin-top: 35px;
@@ -104,7 +119,28 @@ body {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.apresentacao-links-botao-scrub {
+    /* background-color: #5bf800; */
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 21.5px 0;
+    border: 3px solid #5bf800;
+    color: #f6f6f6;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .apresentacao-links-botao:hover {
+    background-color: #272727;
+    border-color: aqua;
+}
+
+.apresentacao-links-botao-scrub:hover {
     background-color: #272727;
     border-color: aqua;
 }
@@ -113,6 +149,16 @@ body {
     color: #000;
     background-color: #5bf800;
     padding: 12px;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.rodape-scrub {
+    text-align: center;
+    color: #000;
+    background-color: #5bf800;
+    padding: 12px;
+    margin-top: 10px;
     font-size: 16px;
     font-family: 'Krona One', sans-serif;
 }
@@ -126,20 +172,22 @@ body {
 
 .titulo-produto-scrub {
     font-family: 'Krona One', sans-serif; 
-    margin-top: 35px;
-    font-weight: 400;
-    font-size: 18px; 
+    margin-top: 30px;
     text-align: center;
+    font-weight: 400;
+    font-size: 22px; 
+
 }
+
 .slider {
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
 }
 .slides {
     width: 400%;
-    height: 300px;
+    height: 400px;
     display: flex;
 }
 
@@ -151,14 +199,15 @@ body {
     position: relative;
 }
 .slide img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .manual-navigation {
     position: absolute;
-    width: 300px;
-    margin-top: 320px;
+    width: 400px;
+    margin-top: 420px;
+    margin-left: -15px;
     display: flex;
     justify-content: center;
 }
@@ -172,7 +221,7 @@ body {
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .manual-btn:hover {
@@ -186,19 +235,203 @@ body {
 #radio2:checked ~ .first {
     margin-left: -25%;
 }
+
 #radio3:checked ~ .first {
     margin-left: -50%;
 }
+
 #radio4:checked ~ .first {
     margin-left: -75%;
 }
+
 #radio5:checked ~ .first {
     margin-left: -100%;
 }
+
 #radio6:checked ~ .first {
     margin-left: -125%;
 }
+
 #radio7:checked ~ .first {
     margin-left: -150%;
 }
+
+#radio8:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio9:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio10:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio11:checked ~ .first {
+    margin-left: -75%;
+}
+
+#radio12:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio13:checked ~ .first {
+    margin-left: -125%;
+}
+
+#radio14:checked ~ .first {
+    margin-left: -150%;
+}
+
+#radio15:checked ~ .first {
+    margin-left: -175%;
+}
+
+#radio16:checked ~ .first {
+    margin-left: -200%;
+}
+
+#radio17:checked ~ .first {
+    margin-left: -225%;
+}
+
+#radio18:checked ~ .first {
+    margin-left: -250%;
+}
+
+#radio19:checked ~ .first {
+    margin-left: -275%;
+}
+
+#radio20:checked ~ .first {
+    margin-left: -300%;
+}
+
+#radio21:checked ~ .first {
+    margin-left: -325%;
+}
+
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 300px;
+    margin-top: 420px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 30px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #fff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background-color: #fff;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6 {
+    background-color: #fff;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7 {
+    background-color: #fff;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn8 {
+    background-color: #fff;
+}
+
+#radio9:checked ~ .navigation-auto .auto-btn9 {
+    background-color: #fff;
+}
+
+#radio10:checked ~ .navigation-auto .auto-btn10 {
+    background-color: #fff;
+}
+
+#radio11:checked ~ .navigation-auto .auto-btn11 {
+    background-color: #fff;
+}
+
+#radio12:checked ~ .navigation-auto .auto-btn12 {
+    background-color: #fff;
+}
+
+#radio13:checked ~ .navigation-auto .auto-btn13 {
+    background-color: #fff;
+}
+
+#radio14:checked ~ .navigation-auto .auto-btn14 {
+    background-color: #fff;
+}
+
+#radio15:checked ~ .navigation-auto .auto-btn15 {
+    background-color: #fff;
+}
+
+#radio16:checked ~ .navigation-auto .auto-btn16 {
+    background-color: #fff;
+}
+
+#radio17:checked ~ .navigation-auto .auto-btn17 {
+    background-color: #fff;
+}
+
+#radio18:checked ~ .navigation-auto .auto-btn18 {
+    background-color: #fff;
+}
+
+#radio19:checked ~ .navigation-auto .auto-btn19 {
+    background-color: #fff;
+}
+
+#radio20:checked ~ .navigation-auto .auto-btn20 {
+    background-color: #fff;
+}
+
+#radio21:checked ~ .navigation-auto .auto-btn21 {
+    background-color: #fff;
+}
+.descricao-produto {
+    display: block;
+}
+.descricao-produto h3 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.descricao-produto p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
 
