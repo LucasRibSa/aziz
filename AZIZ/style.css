@@ -23,6 +23,17 @@ body {
     gap: 32px;
     justify-content: space-evenly;
 }
+.logohome {
+    display: flex;
+    align-items: start;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.fotohome {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
 .apresentacao-conteudo-produtos {
     font-family: 'Krona One', sans-serif; 
     margin-top: 35px;
@@ -35,15 +46,16 @@ body {
     font-size: 20px;
     margin-left: 126px;
     color: #fff;
+    text-decoration: underline #504d4d;
+
 }
 .img-jaleco, .img-scrub {
     margin-left: 110px;
     height: 50%;
     width: 36%;
-    border: 3px solid #5bf800;
+    border: 3px solid #504d4d;
 }
 .img-jaleco:hover, .img-scrub:hover {
-    border-color: aqua;
     height: 50%;
     width: 38%;
 }
@@ -111,7 +123,7 @@ body {
     border-radius: 8px;
     font-size: 20px;
     padding: 21.5px 0;
-    border: 3px solid #5bf800;
+    border: 3px solid #504d4d;
     color: #f6f6f6;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -125,31 +137,29 @@ body {
     border-radius: 8px;
     font-size: 20px;
     padding: 21.5px 0;
-    border: 3px solid #5bf800;
+    border: 3px solid #504d4d;
     color: #f6f6f6;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .apresentacao-links-botao:hover {
-    background-color: #272727;
-    border-color: aqua;
+    background-color: #504d4d;
 }
 .apresentacao-links-botao-scrub:hover {
-    background-color: #272727;
-    border-color: aqua;
+    background-color: #504d4d;
 }
 .rodape {
     text-align: center;
-    color: #000;
-    background-color: #5bf800;
+    color: #fff;
+    background-color: #504d4d;
     padding: 12px;
     font-size: 16px;
     font-family: 'Krona One', sans-serif;
 }
 .rodape-scrub {
     text-align: center;
-    color: #000;
-    background-color: #5bf800;
+    color: #fff;
+    background-color: #504d4d;
     padding: 12px;
     margin-top: 10px;
     font-size: 16px;
@@ -157,8 +167,8 @@ body {
 }
 .rodape-jaleco {
     text-align: center;
-    color: #000;
-    background-color: #5bf800;
+    color: #fff;
+    background-color: #504d4d;
     padding: 12px;
     margin-top: 10px;
     font-size: 16px;
@@ -232,108 +242,136 @@ body {
 .manual-btn:not(:last-child) {
     margin-right: 30px;
 }
-.manual-btn:hover {
-    background-color: #032146;
-}
 #radio1:checked ~ .first {
     margin-left: 0;
+    transition: 1s;
 }
 #radio2:checked ~ .first {
     margin-left: -25%;
+    transition: 1s;
 }
-
 #radio3:checked ~ .first {
     margin-left: -50%;
+    transition: 1s;
 }
 #radio4:checked ~ .first {
     margin-left: -75%;
+    transition: 1s;
 }
 #radio5:checked ~ .first {
     margin-left: -100%;
+    transition: 1s;
 }
 #radio6:checked ~ .first {
     margin-left: -125%;
+    transition: 1s;
 }
 #radio7:checked ~ .first {
     margin-left: -150%;
+    transition: 1s;
 }
 #radio8:checked ~ .first {
     margin-left: 0;
+    transition: 1s;
 }
 #radio9:checked ~ .first {
     margin-left: -25%;
+    transition: 1s;
 }
 #radio10:checked ~ .first {
     margin-left: -50%;
+    transition: 1s;
 }
 #radio11:checked ~ .first {
     margin-left: -75%;
+    transition: 1s;
 }
 #radio12:checked ~ .first {
     margin-left: -100%;
+    transition: 1s;
 }
 #radio13:checked ~ .first {
     margin-left: -125%;
+    transition: 1s;
 }
 #radio14:checked ~ .first {
     margin-left: -150%;
+    transition: 1s;
 }
 #radio15:checked ~ .first {
     margin-left: -175%;
+    transition: 1s;
 }
 #radio16:checked ~ .first {
     margin-left: -200%;
+    transition: 1s;
 }
 #radio17:checked ~ .first {
     margin-left: -225%;
+    transition: 1s;
 }
 #radio18:checked ~ .first {
     margin-left: -250%;
+    transition: 1s;
 }
 #radio19:checked ~ .first {
     margin-left: -275%;
+    transition: 1s;
 }
 #radio20:checked ~ .first {
     margin-left: -300%;
+    transition: 1s;
 }
 #radio21:checked ~ .first {
     margin-left: -325%;
+    transition: 1s;
 }
 #radio22:checked ~ .first {
     margin-left: 0;
+    transition: 1s;
 }
 #radio23:checked ~ .first {
     margin-left: -25%;
+    transition: 1s;
 }
 #radio24:checked ~ .first {
     margin-left: -50%;
+    transition: 1s;
 }
 #radio25:checked ~ .first {
     margin-left: -75%;
+    transition: 1s;
 }
 #radio26:checked ~ .first {
     margin-left: -100%;
+    transition: 1s;
 }
 #radio27:checked ~ .first {
     margin-left: -125%;
+    transition: 1s;
 }
 #radio28:checked ~ .first {
     margin-left: -150%;
+    transition: 1s;
 }
 #radio29:checked ~ .first {
     margin-left: -175%;
+    transition: 1s;
 }
 #radio30:checked ~ .first {
     margin-left: -200%;
+    transition: 1s;
 }
 #radio31:checked ~ .first {
     margin-left: -225%;
+    transition: 1s;
 }
 #radio32:checked ~ .first {
     margin-left: -250%;
+    transition: 1s;
 }
 .navigation-auto div{
-    border: 2px solid #20a6ff;
+    border: 2px solid #504d4d;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -453,81 +491,102 @@ body {
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .descricao-produto p {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     font-size: 16px;
 }
 .valor {
     font-size: 25px;
-    color: #20a6ff;
+    color: #0370a3;
     text-align: center;
 }
 #radio1-jaleco:checked ~ .first {
     margin-left: 0;
+    transition: 1s;
 }
 #radio2-jaleco:checked ~ .first {
     margin-left: -25%;
+    transition: 1s;
 }
 #radio3-jaleco:checked ~ .first {
     margin-left: -50%;
+    transition: 1s;
 }
 #radio4-jaleco:checked ~ .first {
     margin-left: -75%;
+    transition: 1s;
 }
 #radio5-jaleco:checked ~ .first {
     margin-left: -100%;
+    transition: 1s;
 }
 #radio6-jaleco:checked ~ .first {
     margin-left: -125%;
+    transition: 1s;
 }
 #radio7-jaleco:checked ~ .first {
     margin-left: -150%;
+    transition: 1s;
 }
 #radio8-jaleco:checked ~ .first {
     margin-left: -175%;
+    transition: 1s;
 }
 #radio9-jaleco:checked ~ .first {
     margin-left: -200%;
+    transition: 1s;
 }
 #radio10-jaleco:checked ~ .first {
     margin-left: -225%;
+    transition: 1s;
 }
 #radio11-jaleco:checked ~ .first {
     margin-left: 0;
+    transition: 1s;
 }
 #radio12-jaleco:checked ~ .first {
     margin-left: -25%;
+    transition: 1s;
 }
 #radio13-jaleco:checked ~ .first {
     margin-left: -50%;
+    transition: 1s;
 }
 #radio14-jaleco:checked ~ .first {
     margin-left: -75%;
+    transition: 1s;
 }
 #radio15-jaleco:checked ~ .first {
     margin-left: -100%;
+    transition: 1s;
 }
 #radio16-jaleco:checked ~ .first {
     margin-left: -125%;
+    transition: 1s;
 }
 #radio17-jaleco:checked ~ .first {
     margin-left: -150%;
+    transition: 1s;
 }
 #radio18-jaleco:checked ~ .first {
     margin-left: -175%;
+    transition: 1s;
 }
 #radio19-jaleco:checked ~ .first {
     margin-left: -200%;
+    transition: 1s;
 }
 #radio20-jaleco:checked ~ .first {
     margin-left: -225%;
+    transition: 1s;
 }
 #radio21-jaleco:checked ~ .first {
     margin-left: -250%;
+    transition: 1s;
 }
 #radio1-jaleco:checked ~ .navigation-auto .auto-btn1 {
     background-color: #fff;
