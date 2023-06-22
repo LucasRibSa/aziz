@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Krona+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -23,14 +24,22 @@ body {
     gap: 32px;
     justify-content: space-evenly;
 }
-.logohome {
+.faixa {
     display: flex;
-    align-items: start;
-    margin-top: 25px;
-    margin-left: 25px;
+    background-color: #504d4d;
+    height: 90px;
+}
+.logo-pequena {
+    width: 100px;
+    margin-left: 44.5%;
+    margin-top: -5px;
+    height: 100px;
+    border-radius: 50%;
 }
 .fotohome {
     height: 35px;
+    margin-top: 26px;
+    margin-left: 15px;
     width: 35px;
     border-radius: 50%;
 }
@@ -44,10 +53,12 @@ body {
 .desc-produtos {
     font-family: 'Krona One', sans-serif;
     font-size: 20px;
-    margin-left: 126px;
+    margin-left: 135px;
     color: #fff;
     text-decoration: underline #504d4d;
-
+}
+.desc-produtos:hover {
+    font-size: 22px;
 }
 .img-jaleco, .img-scrub {
     margin-left: 110px;
@@ -491,18 +502,18 @@ body {
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poiret One', cursive;
 }
 .descricao-produto p {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poiret One', cursive;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .valor {
     font-size: 25px;
-    color: #0370a3;
     text-align: center;
+    font-family: 'Belanosima', sans-serif;
 }
 #radio1-jaleco:checked ~ .first {
     margin-left: 0;
