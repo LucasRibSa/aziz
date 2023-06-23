@@ -72,19 +72,16 @@ body {
 }
 .logo-aziz {
     height: 50%;
-    border-radius: 10%;
     width: 42%;
 }
 .logo-aziz-scrub {
     height: 50%;
     margin-left: 30%;
-    border-radius: 10%;
     width: 42%;
 }
 .logo-aziz-jaleco {
     height: 50%;
     margin-left: 30%;
-    border-radius: 10%;
     width: 42%;
 }
 .apresentacao-conteudo {
@@ -249,6 +246,9 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+}
+.logo-aziz-cel {
+    display: none;
 }
 .manual-btn:not(:last-child) {
     margin-right: 30px;
@@ -662,3 +662,156 @@ body {
 #radio21-jaleco:checked ~ .navigation-auto .auto-btn21 {
     background-color: #fff;
 }
+
+@media(max-width: 450px){
+    
+    .apresentacao-conteudo-subtitulo{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .img-jaleco, .img-scrub {
+        margin-left: 40px;
+        height: 180px;
+        width: 55%;
+        border: 3px solid #504d4d;
+    }
+    .img-jaleco:hover, .img-scrub:hover {
+        height: 200px;
+        width: 55%;
+    }
+    .apresentacao {
+        padding: 20%;
+    }
+    .apresentacao-links-scrub {
+        flex-direction: column;
+    }
+    .apresentacao-links {
+        flex-direction: column;
+    }
+    .apresentacao-conteudo-produtos{
+        font-size: 14px;
+
+    }
+    .desc-produtos{
+        font-size: 12px;
+        margin-left: 58px;
+    }
+    .desc-produtos:hover {
+        font-size: 14px;
+    }
+    .apresentacao-conteudo-titulo {
+        padding: 20px;
+        margin-top: 10px;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .logo-aziz {
+        display: none;
+    }
+    .logo-aziz-cel {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .logo-aziz-cel-foto{
+        width: 220px;
+        height: 220px;
+        margin-left: 84px;
+    }
+    .apresentacao {
+        padding: 0;
+    }
+    .rodape{
+        margin-top: 100px;
+    }
+    .faixa {
+        display: flex;
+        background-color: #504d4d;
+        height: 50px;
+    }
+    .logo-pequena {
+        width: 70px;
+        margin-left: 28%;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .fotohome {
+        height: 35px;
+        margin-top: 10px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    .titulo-scrub, .titulo-jaleco {
+        font-size: 18px;
+    }
+    .titulo-produto-scrub, .titulo-produto-jaleco {
+        font-size: 16px;
+    }
+    .slider {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .slides {
+        margin-top: 5px;
+        width: 400%;
+        height: 400px;
+        display: flex;
+    }
+    .slide img {
+        height: 200px;
+        width: 200px;
+    }
+    .manual-navigation {
+        position: absolute;
+        width: 200px;
+        margin-top: 220px;
+        margin-left: -10px;
+        display: flex;
+        justify-content: center;
+    }
+    .manual-btn {
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .navigation-auto {
+        position: absolute;
+        width: 200px;
+        margin-top: 220px;
+        margin-left: -10px;
+        display: flex;
+        justify-content: center;
+    }
+    .descricao-produto {
+        display: block;
+    }
+    .descricao-produto h3 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        font-family: 'Poiret One', cursive;
+    }
+    .descricao-produto p {
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .valor {
+        font-size: 16px;
+        margin-top: 14px;
+        text-align: center;
+        font-family: 'Belanosima', sans-serif;
+    }
+    .manual-btn:not(:last-child) {
+        margin-right: 10px;
+    }
+    .navigation-auto div:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
